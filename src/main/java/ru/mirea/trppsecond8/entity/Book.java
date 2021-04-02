@@ -1,4 +1,4 @@
-package ru.mirea.trpp_second_8.entity;
+package ru.mirea.trpp_lab2_var8.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.opencsv.bean.CsvBindByName;
@@ -32,5 +32,4 @@ public class Book {
     @JsonProperty("created")
     @CsvBindByName(column = "created")
     private String created;
-
 }

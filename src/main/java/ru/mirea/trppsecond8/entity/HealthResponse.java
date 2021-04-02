@@ -1,4 +1,4 @@
-package ru.mirea.trpp_second_8.entity;
+package ru.mirea.trpp_lab2_var8.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,5 +12,4 @@ public class HealthResponse {
 
     /** Статус работы. */
     private String status;
-
 }
